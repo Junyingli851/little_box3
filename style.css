@@ -1,0 +1,131 @@
+h{
+  color: green;
+  font-size: 40px;
+  margin-left: 300px;
+  font:Noto Serif Display;
+  font-style: italic;
+}
+
+body{
+  background-color:LightGray;
+  padding-top: 100px;
+}
+
+section{
+  background-color: rgb(241,	236,	228	)	;
+  height: 600px;
+  width: 600px;
+  margin: 100px auto;
+  padding: 90px;
+
+
+}
+div{
+	height: 100%; /* Fill the parent. This works since we have a declared height ancestor. */
+	padding-bottom: 5%; /* Different inset on each side for the distinct downward look. */
+	padding-left: 10%; /* And using a relative unit means I can share this for all the `div` levels. */
+	padding-right: 10%;
+	padding-top: 15%;
+	width: 100%;
+
+}
+
+section > div{
+  background-color: rgb(106,	115,	103) ;
+}
+
+section > div > div{
+  background-color: rgb(92	123	111	)	;
+}
+
+section > div > div > div{
+  background-color: rgb(135	173	185	)	;
+}
+
+section > div > div > div > div{
+  background-color: rgb(123	175	115	)	;
+
+}
+
+
+figcaption{
+  padding:10px;
+  margin: 0 180px;
+}
+
+a{
+  text-decoration: none;
+  color:#555555
+}
+
+h1{
+  padding:10px;
+  margin: 0 50px;
+
+}
+p {
+  padding:20px;
+  margin: 0 200px;
+  margin-bottom: 100px;
+}
+
+.secend {
+  background-color: rgb(242	241	235	);
+  height: :600px;
+  width:600px;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+
+
+.secend > div {
+  background-color: rgb(111	112	112		);
+}
+
+.secend > div > div{
+  background-color: rgb(127	129	128		);
+  margin-bottom: 50px;
+}
+
+.secend > div > div > div{
+  background-color: rgb(127	129	128		);
+ }
+
+ .secend > div > div > div > div{
+   background-color: rgb(125	134	99	);
+  }
+
+
+.McLaughlin{
+
+  background-color: rgb(236	233	222	);
+  height: 600px;
+  width: 750px;
+  margin: 200px auto;
+  position: relative;
+ }
+
+.McLaughlin > div{
+  background-color: rgb(47	47	47	);
+  padding: 160px;
+
+	width: 300px;
+
+}
+
+.McLaughlin > div > div {
+  background-color: rgb(110	149	112);
+  position: relative;top:-160px;left: 180px;
+  height: 243px;
+  width: 300px;
+
+}
+
+McLaughlin > div > div {
+  background-color: rgb(110	149	112);
+  position: relative;top:-160px;left: 180px;
+  height: 243px;
+  width: 300px;
+ padding-bottom: 200px;
+}
